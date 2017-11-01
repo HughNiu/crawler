@@ -19,7 +19,7 @@ public class HttpRequestDemo {
         replacement.put("&lt;", "<");
         replacement.put("&gt;", ">");
         replacement.put("\".*?>", ""); // 知乎特殊的转义
-        crawl("get", "https://www.zhihu.com/question/24841812", null, ".RichContent-inner", replacement);
+        crawl("get", "https://www.zhihu.com/question/27850529", null, ".RichContent-inner", replacement);
     }
 
     /**
